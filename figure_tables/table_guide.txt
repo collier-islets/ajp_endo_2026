@@ -1,0 +1,44 @@
+1A_human_heat_composite_genes.xlsx
+File describes the differentially expressed genes in the T1D and cytokine treated islets in Fig 1A. "composite_scores" sheet includes the shared DEGs from both lists, and includes composite scores calculated from padj of both datasets.
+
+1B_human_heat_gobp_filtered.xlsx
+File provides Gene Ontology results from the three groups (T1D, cytokines, and shared) displayed in the heat map. Note that GO was run on genes exclusive to either dataset or the overlap. "soko" indicates the cytokine-exposed human islets from Sokolowski et al 2024.
+
+1D_human_venn_go_results.xlsx
+File provides Gene Ontology results from the three genesets shown in the Venn diagram, including shared genes.
+
+1D_human_venn_inclusion.xlsx
+File provides table indicating which genes were present in which groups.
+
+2A_human_venn_common_enrichr.xlsx
+Describes full ENRICHR results from the "common" genes in the Venn from Fig 1D. Note that the common genes are defined as those present in at least two groups in the Venn.
+
+2B_mouse_degs_for_heatmap.xlsx
+Provides full DESeq2 results from the genelists in the mouse heat map. The "shared" sheet provides composite scores for shared genes calculated from padj.
+
+2C_rat_il1b_degs.xlsx
+Provides full DESeq2 results from the genelists in the rat heat map.
+
+2D_multispecies_venn_inclusion.xlsx
+Provides table indicating which genes (or human orthologs of rodent genes) were present in which groups.
+
+4E_mp_gobp.xlsx
+Provides genelists of the two metaprograms identified as the cytokine-responsive genesets in scRNA data. "shared" lists the overlapping genes of both species' metaprograms. "gobp" provides full GO results for the overlapping geneset.
+
+6AB_p65_rnap_overlap.xlsx
+Describes the annotated peaks found to be overlapping between p65 and RNA Pol II ChIP-seq experiments. Peaks were identified as differentially binding with DiffBind, and they were annotated with ChIPseeker. "p65" lists the p65 peaks found to overlap RNAP peaks, and "rnap" lists the RNAP peaks found to overlap p65 peaks. 
+
+6CDE_chip_gobp.xlsx
+Provides full GO results from the three peaksets. 
+
+7E_viral_heat_inclusion_table.xlsx
+Provides table indicating table which genes were present in either group.
+
+7F_inclusion_table.xlsx
+Provides table indicating which genes or peak-associated genes were present in which groups.
+
+
+
+
+
+
